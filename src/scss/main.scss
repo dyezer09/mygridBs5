@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+@import 'grid/init';
+
+html,body{
+    margin: 0;
+    font-size: 22px;
+
+}
+
+
+
+.blok{
+  padding: 20px;
+  background-color: gray;
+  border: solid 1px #aaa;
+  text-align: center;
+  height: 100px;
+}
+.row{
+  margin-bottom: 30px;
+}
